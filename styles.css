@@ -53,13 +53,14 @@ ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 0;
   gap: 20px;
 }
 
 ul li {
   list-style-type: none;
   background-color: lightyellow;
-  padding: 1em;
+  padding: 1em 0.5em;
   flex-grow: 1;
 }
 
